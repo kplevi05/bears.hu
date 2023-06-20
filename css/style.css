@@ -1,0 +1,215 @@
+/* CSS Document */
+
+body{
+	
+		background-image: url("../352087827_151222494615170_4981255456556244789_n.jpg");
+	background-repeat: repeat;
+	
+	;
+	
+
+}
+hr{
+	//width: 400px;
+	float: left;
+	background-color: black;
+	height: 2px;
+	position: relative;
+  top: -20px;
+	
+}
+
+h2{
+	color: #630711;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h3{
+	font-weight: bold;
+	font-size: 3.2vw;
+}
+	
+
+div{
+	
+}
+
+
+#head{
+	
+	
+	color: black;
+	font-weight: bold;
+	width: 1200px;
+	height: 457px;
+	font-family: progress;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+#csapat{
+	text-align: justify;
+	background-color: white;
+	
+		
+	border-style: solid;
+	border-color: black;
+	border-radius: 15px;
+	border-bottom-left-radius: 30px;
+	border-width: 5px;
+	box-shadow: 3px 5px #52070f;
+	padding: 5px;
+}
+#cimkep{
+	border-radius: 10px;
+}
+
+#cim{
+	text-align: center;
+	
+	margin: 15px;
+}
+
+
+
+#main{
+	margin: 10px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	height:auto;
+	text-align: center;
+	background-color: rgba(99,7,17,0.96);
+	position: relative;
+  	top: -55px;
+	border-radius: 50px;
+	box-shadow: 0 0 5px 10px rgba(99,7,17,0.96);
+	
+	
+}
+#more{
+	border: thick;
+	border-bottom-color: black;
+	background-color: gray;
+}
+#tobszov{
+	box-shadow: 0 0 25px 10px rgba(123,17,47,0.96);
+}
+#jobb{
+	margin-left: 10px;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	width: 130px;
+	height: 380px;
+	float: left;
+	border-radius: 15px;
+	padding-top: 15px;
+	font-weight: bold;
+}
+#icon{
+	border-radius: 10px;
+}
+#face{
+	border-radius: 10px;
+	
+}
+.vs{
+	position: absolute;
+	top: 50%;
+	color: rgba(200,213,28,1.00);
+	text-shadow: 1px 2px rgba(171,132,3,1.00);
+	font-size: 3.2vw;
+}
+.gal-pic{
+	
+	
+}
+.row-gap{
+	margin-bottom: 29px;
+	
+}
+.col-gap{
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+.bg-container{
+	background-color: rgba(99,7,17,1.0);
+	
+	box-shadow: 0 0 5px 10px rgba(99,7,17,0.96);
+	border-radius: 15px; 
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+	
+  
+}
+.navbar{
+	background-color: rgba(0,0,0,0.8);
+	font-weight: bold;
+}
+.dropdown-menu {
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 55px;
+    
+	
+}
+.dropdown-item{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.szoveg{
+position: relative;
+  top: -40px;
+}
+.ver-mid{
+	padding-top: 200px;
+	text-align: center
+}
+.tartalom{
+	text-align: justify;
+	background-color: white;
+	
+	margin-left: 160px;	
+	border-style: solid;
+	border-color: black;
+	border-radius: 15px;
+	border-bottom-left-radius: 30px;
+	border-width: 5px;
+	box-shadow: 3px 5px #52070f;
+	padding: 5px;
+	position: relative;
+	left: -150px;
+	margin-bottom: 25px;
+	
+}
+
+.kozep{
+	text-align: center;
+	
+}
+.f_kozep{
+	position: absolute;
+	top: 50%;
+}
+.icon{
+	width: 50px;
+	height: 50px;
+}
+.gomb{
+	color: white;	
+	height: 75px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	margin-left: 7.5px;
+	margin-right: 7.5px;
+	
+	
+}
