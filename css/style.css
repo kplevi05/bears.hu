@@ -1,5 +1,5 @@
 /* CSS Document */
-
+//ez a belső file
 body{
 	
 		background-image: url("../352087827_151222494615170_4981255456556244789_n.jpg");
@@ -10,7 +10,7 @@ body{
 
 }
 hr{
-	//width: 400px;
+	
 	float: left;
 	background-color: black;
 	height: 2px;
@@ -18,7 +18,9 @@ hr{
   top: -20px;
 	
 }
-
+sup{
+	text-decoration: underline;
+}
 h2{
 	color: #630711;
 	text-transform: uppercase;
@@ -31,7 +33,8 @@ h3{
 	
 
 div{
-	
+	border: solid;
+	border-color: yellow;
 }
 
 
@@ -70,7 +73,10 @@ div{
 	margin: 15px;
 }
 
-
+#Toborzás{
+	font-size: 25px;
+	font-weight: bold;
+}
 
 #main{
 	margin: 10px;

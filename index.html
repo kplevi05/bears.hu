@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!-- EZ a belső file-->
 <html lang="en">
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://shorturl.at/biIP5" type="image/x-icon" >
+    <link rel="icon" type="image/x-icon" href="indexicon.ico"  >
 	 <title>Oroszlány-Bears</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
@@ -20,7 +20,12 @@
 			width: 100%;
 		}
 	</style>
-	
+	<style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
   </head>
   <body style="padding-top: 70px">
   	
@@ -127,7 +132,7 @@
 	  
 	<div class="row">
 	  		<div class="col-12 kozep">
-				<button onClick="toggleDiv('div1', 'b1')" id="b1" >Ʌ</button>	
+				<button onClick="toggleDiv('div1', 'b1')" id="b1" >V</button>	
 			</div>
 	  	</div>
 	
@@ -185,7 +190,7 @@
 		</div> 
 	<div class="row">
 	  		<div class="col-12 kozep">
-				<button onClick="toggleDiv('div2', 'b2')" id="b2" >Ʌ</button>	
+				<button onClick="toggleDiv('div2', 'b2')" id="b2" >V</button>	
 			</div>
 	  	</div>
 	
@@ -226,14 +231,32 @@
 		<div class="col-12 kozep">
 		 <img src="Bears Toborzó.png" class="w-25"  height="auto" alt="Bears Toborzó kép"/><br>
 	     <img src="toborzo szoveg.png" class="w-50"  height="auto" alt="Bears Toborzó szöveg" id="tobszov"/>
-			<p> Ide kell majd írni valami rövid leírást aminek a lényege az, hogy hogy csatlakozzanak hozzánk</p>
-			
-		 
-		 
-		 </div>
-		
-	  </div> 
+			<p> Ide kell majd írni valami rövid leírást aminek a lényege az, hogy hogy csatlakozzanak hozzánk<br>
+				Ennek is lesz majd beállítva ilyen "neon" világítós hatást keltő effektus</p>
 
+		 </div>
+	 
+	  </div> 
+		 <div class="row">
+				 <div class="col-6">
+
+					 <div class="Edzések">
+
+					 <ul>
+						<li>Kedd: 17<sup>00</sup>  -  19<sup>00</sup></li>
+						<li>Péntek: 17<sup>00</sup>  -  19<sup>00</sup></li>
+						<li>Péntek: 14<sup>00</sup>  -  17<sup>00</sup></li>
+
+					</ul>
+
+					 </div>
+
+
+				</div>
+					 <div class="col-6">Az edzés helye:  </div>
+						<div id="chudik"></div>
+
+				 </div>
 
 
 	</div>
@@ -317,6 +340,23 @@ function nagyit(kepId, kepDiv) {
 }
 
 </script>
+<script>
+        function initMap() {
+            var location = {lat: 47.395278, lng: 18.283889};
+
+            var map = new google.maps.Map(document.getElementById('chudik'), {
+                center: location,
+                zoom: 15
+            });
+
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                title: 'Chudik Lajos Sporttelep Oroszlány'
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBU0hD_GVbupleTksf3j5Tn83pa_PDW2Gg&callback=initMap" async defer></script>
 
 </body>
 </html>
