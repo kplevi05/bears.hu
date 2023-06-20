@@ -1,35 +1,58 @@
-<!DOCTYPE html><!-- EZ a belső file-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
+	
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="indexicon.ico"  >
-	 <title>Oroszlány-Bears</title>
+	 <title>Oroszlány Bears</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	 <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+	 <link rel="stylesheet" type="text/css" href="css/style.css" />  
+	<script src="js/script.js"></script>
+	
 	<style>
     .rejt {
       display: none;
     }
-  </style>
-	<style>
 		.gal-pic{
 			height: 100%;
 			width: 100%;
 		}
-	</style>
-	<style>
-        #map {
-            height: 400px;
-            width: 100%;
+		#map {
+            height: 200px;
+            width: 50%;
         }
-    </style>
+  </style>
+	
+	<script>
+function rendez() {
+      var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      var kepek = document.getElementsByClassName("kepek");
+      
+      if (screenWidth < 1005) {
+        for (var i = 0; i < kepek.length; i++) {
+          kepek[i].classList.remove("col-6");
+          kepek[i].classList.add("col-lg-6");
+        }
+      } else {
+        for (var i = 0; i < kepek.length; i++) {
+          kepek[i].classList.remove("col-lg-6");
+          kepek[i].classList.add("col-6");
+        }
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', rendez); 
+    window.addEventListener('resize', rendez);
+	
+</script>
+	
   </head>
   <body style="padding-top: 70px">
   	
-  <div id="main" class="w-85 p-3"> <!-- MAIN-->
+  <div id="main" class="w-85 p-3"> <!-- MAIN Ez a fő program -->
   
     <div id="cim" class="w-85 p-3">
 		  <img src="cimkep.jpg" id="cimkep" class="w-100 border-top-0" alt="Oroszlány Bears">
@@ -53,7 +76,7 @@
       </div>    
       </li>
 			  
-			  <li class="nav-item active"> <a class="nav-link" href="#Toborzás">Toborzás <span class="sr-only">(current)</span></a> </li>
+			  <li class="nav-item active"> <a class="nav-link" href="#Toborzás">Toborzás - Edzések <span class="sr-only">(current)</span></a> </li>
 	        
           </ul>
 	      <a href="https://www.facebook.com/oroszlanybearsfootball/" target="blank"><div class="gomb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" class="icon" alt="Facebook" id="faces"><p style="color: white">Facebook</p></div></a>
@@ -107,20 +130,20 @@
 		</div>
 			 
 		<div class="row">	 
-			 <div class="col-sm-2 ver-mid">
+			 <div class="col-lg-2 ver-mid">
      				<p><h4>Időpont:</h4>2023.06.10 Szombat, 15:00</p>
 			   
    </div>
-		 <div class="col-sm-5" style="text-align: center">
+		 <div class="col-lg-5" style="text-align: center">
      		<p ><h4>Helyszín:</h4>Oroszlányi műfüves focipálya -<br>Fekete István Sportcentrum</p>
-			 <a href="https://shorturl.at/qBUXZ"><img src="https://shorturl.at/nyG05" alt="map" id="map" class="w-75 p-3"></a>
+			 <a href="https://shorturl.at/qBUXZ"><img src="https://shorturl.at/nyG05" alt="map" id="map1" class="w-75 p-3"></a>
 			 
 			 
 		 			
 		 
 		 	
     	</div>
-	  <div class="col-sm-5" style="text-align: center">
+	  <div class="col-lg-5" style="text-align: center">
      				<p><h4>Visszanézés:</h4>A közvetítést visszanézheti itt: </p>
 		  <iframe  height="315" src="https://www.youtube.com/embed/_Aavzqtm_TI" title="Hippos vs Wolves II." frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 p-0"></iframe>
 		  
@@ -167,10 +190,10 @@
 		</div>
 			 
 		<div class="row">	 
-			 <div class="col-sm-2 ver-mid">
+			 <div class="col-lg-2 ver-mid">
      				<p><h4>Időpont:</h4>2023.05.21 Vasárnap, 15:00</p>
     	</div>
-		 <div class="col-sm-5">
+		 <div class="col-lg-5">
      		<p style="float: left"><h4>Helyszín:</h4>Taszár, Kossuth Lajos u. 4. Sportpálya</p>
 			 <a href="https://shorturl.at/mCO35"><img src="https://shorturl.at/nCPV3" alt="map" class="w-100 p-3"></a>
 			 
@@ -179,7 +202,7 @@
 		 
 		 	
     	</div>
-	  <div class="col-sm-5" style="text-align: center">
+	  <div class="col-lg-5" style="text-align: center">
      				<p><h4>Visszanézés:</h4>A közvetítést visszanézheti itt: </p>
 		  <iframe  height="315" src="https://www.youtube.com/embed/Xk2q8U69vr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-100 p-0"></iframe>
 		  
@@ -203,21 +226,21 @@
 	<div class="container-fluid bg-container">
 	<div class="row row-gap">
 	
-		<div class="col-6 col-gap" id="kepdiv1">
+		<div class="col-6 col-lg-6 col-gap kepek" id="kepdiv1">
 			<img id="kep1" onClick="nagyit('kep1', 'kepdiv1')"  src="https://shorturl.at/klpsP" alt="Diósd edzés kép 1." class="w-100 gal-pic">
 		</div>
 	
-		<div class="col-6 col-gap" id="kepdiv2"><img id="kep2" onClick="nagyit('kep2', 'kepdiv2')" src="https://shorturl.at/jyKS6" alt="Diósd edzés kép 2." class="w-100 gal-pic" width="100%" height="100%"/></div>	
+		<div class="col-6 col-lg-6 col-gap kepek" id="kepdiv2"><img id="kep2" onClick="nagyit('kep2', 'kepdiv2')" src="https://shorturl.at/jyKS6" alt="Diósd edzés kép 2." class="w-100 gal-pic" width="100%" height="100%"/></div>	
 	</div>
 	
 		
 		<div class="row row-gap">
 	
-		<div class="col-6 col-gap" id="kepdiv3" >
+		<div class="col-6 col-lg-6 col-gap kepek" id="kepdiv3" >
 			<img id="kep3" onClick="nagyit('kep3', 'kepdiv3')"  src="https://shorturl.at/ahwY6" alt="Diósd edzés kép 3." class="w-100 gal-pic">
 		</div>
 	
-		<div class="col-6 col-gap" id="kepdiv4"><img id="kep4" onClick="nagyit('kep4', 'kepdiv4')" src="https://shorturl.at/dqCZ7" alt="Diósd edzés kép 4." class="w-100 gal-pic" width="100%" height="100%"/></div>	
+		<div class="col-6 col-lg-6 col-gap kepek" id="kepdiv4"><img id="kep4" onClick="nagyit('kep4', 'kepdiv4')" src="https://shorturl.at/dqCZ7" alt="Diósd edzés kép 4." class="w-100 gal-pic" width="100%" height="100%"/></div>	
 	</div>
 		
 	</div>
@@ -226,40 +249,34 @@
 
 </div><!--KÉPEK vége-->
 	<div class="container-fluid w-85 p-3 tartalom" id="Toborzás">
-     <div class="row">
-		
+	<div class="row">
 		<div class="col-12 kozep">
-		 <img src="Bears Toborzó.png" class="w-25"  height="auto" alt="Bears Toborzó kép"/><br>
-	     <img src="toborzo szoveg.png" class="w-50"  height="auto" alt="Bears Toborzó szöveg" id="tobszov"/>
+			<img src="Bears Toborzó.png" class="w-25" height="auto" alt="Bears Toborzó kép" /><br>
+			<img src="toborzo szoveg.png" class="w-50" height="auto" alt="Bears Toborzó szöveg" id="tobszov" />
 			<p> Ide kell majd írni valami rövid leírást aminek a lényege az, hogy hogy csatlakozzanak hozzánk<br>
 				Ennek is lesz majd beállítva ilyen "neon" világítós hatást keltő effektus</p>
-
-		 </div>
-	 
-	  </div> 
-		 <div class="row">
-				 <div class="col-6">
-
-					 <div class="Edzések">
-
-					 <ul>
-						<li>Kedd: 17<sup>00</sup>  -  19<sup>00</sup></li>
-						<li>Péntek: 17<sup>00</sup>  -  19<sup>00</sup></li>
-						<li>Péntek: 14<sup>00</sup>  -  17<sup>00</sup></li>
-
-					</ul>
-
-					 </div>
-
-
-				</div>
-					 <div class="col-6">Az edzés helye:  </div>
-						<div id="chudik"></div>
-
-				 </div>
-
-
+		</div>
 	</div>
+	<div class="row">
+		<div class="col-12"><h2>Edzések:</h2><hr class="w-25"><br><br></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="Edzések">
+				<span class="">Az edzések időpontjai:</span><br><br>
+				<ul>
+					<li>Kedd: 17<sup>00</sup> - 19<sup>00</sup></li>
+					<li>Péntek: 17<sup>00</sup> - 19<sup>00</sup></li>
+					<li>Péntek: 14<sup>00</sup> - 17<sup>00</sup></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-8">
+			<span class="">Az edzések helye:</span>
+			<div id="map" class="w-100"></div>
+		</div>
+	</div>
+</div>
 	  
 
 
@@ -315,9 +332,13 @@ function nagyit(kepId, kepDiv) {
   var div = document.getElementById(kepDiv);
   var eredetiSzelesseg = kep.offsetWidth;
   var eredetiMagassag = kep.offsetHeight; 
+  var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-	
-  if (check.textContent === "alap") {
+	if(screenWidth < 1005){
+		return;
+	}
+	else{
+		if (check.textContent === "alap") {
 		var element = document.getElementById(kepId);
  
 	  	 element.scrollIntoView();
@@ -337,14 +358,16 @@ function nagyit(kepId, kepDiv) {
 		kep.scrollIntoView({ behavior: 'smooth' });
 	  	check.textContent = "alap";
   }
+	}
+  
 }
 
 </script>
 <script>
         function initMap() {
-            var location = {lat: 47.395278, lng: 18.283889};
+            var location = {lat: 47.475711, lng: 18.320073};
 
-            var map = new google.maps.Map(document.getElementById('chudik'), {
+            var map = new google.maps.Map(document.getElementById('map'), {
                 center: location,
                 zoom: 15
             });
