@@ -1,0 +1,25 @@
+Nagyítás ellenőrzése:
+
+<div id="alert"><h1>Annak érdekében, hogy az oldal felépítése megfelelően jelenhessen meg, <br>kérlek az oldal nagyítását állítsd <b>100%-ra</b></h1></div>
+<script>
+  function updateZoomLevel() {
+    var zoomLevel = Math.round((window.innerWidth / window.outerWidth) * 100);
+	  if(zoomLevel !== 96){//akkor ha nem 100% a nagyítás
+		  var main = document.getElementById("main");
+		  var alert = document.getElementById("alert");
+		  main.style.display= 'none';
+		  alert.style.display= 'block';
+		  
+	  }
+	  else{//akkor ha 100% a nagyítás
+		  var main = document.getElementById("main");
+		  main.style.display= 'block';
+		  alert.style.display= 'none';
+	  }
+  }
+  // Frissítjük az oldal nagyítási szintjét az esemény bekövetkeztekor
+    window.onresize = updateZoomLevel;
+
+    // Az oldal betöltésekor is frissítjük a nagyítási szintet
+    window.onload = updateZoomLevel;
+</script>

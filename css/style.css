@@ -2,232 +2,250 @@
 
 body{
 	
-		background-image: url("../352087827_151222494615170_4981255456556244789_n.jpg");
-	background-repeat: repeat;
-	
-	
-	
+	background-image: url("../352087827_151222494615170_4981255456556244789_n.jpg");
+background-repeat: repeat;
+
+
+
 
 }
 hr{
-	
-	float: left;
-	background-color: black;
-	height: 2px;
-	position: relative;
-  top: -20px;
-	
+
+float: left;
+background-color: black;
+height: 2px;
+position: relative;
+top: -20px;
+
 }
 sup{
-	text-decoration: underline;
+text-decoration: underline;
 }
 h2{
-	color: #630711;
-	text-transform: uppercase;
-	font-weight: bold;
+color: #630711;
+text-transform: uppercase;
+font-weight: bold;
 }
 h3{
-	font-weight: bold;
-	font-size: 3.2vw;
+font-weight: bold;
+font-size: 3.2vw;
 }
-	
 
-div{
-	
-}
+
+
 
 
 #head{
-	
-	
-	color: black;
-	font-weight: bold;
-	width: 1200px;
-	height: 457px;
-	font-family: progress;
-	text-transform: uppercase;
-	text-align: center;
+
+
+color: black;
+font-weight: bold;
+width: 1200px;
+height: 457px;
+font-family: progress;
+text-transform: uppercase;
+text-align: center;
 
 }
 #csapat{
-	text-align: justify;
-	background-color: white;
+text-align: justify;
+background-color: white;
+
 	
-		
-	border-style: solid;
-	border-color: black;
-	border-radius: 15px;
-	border-bottom-left-radius: 30px;
-	border-width: 5px;
-	box-shadow: 3px 5px #52070f;
-	padding: 5px;
+border-style: solid;
+border-color: black;
+border-radius: 15px;
+border-bottom-left-radius: 30px;
+border-width: 5px;
+box-shadow: 3px 5px #52070f;
+padding: 5px;
 }
 #cimkep{
-	border-radius: 10px;
+border-radius: 10px;
 }
 
 #cim{
-	text-align: center;
-	
-	margin: 15px;
+text-align: center;
+
+margin: 15px;
 }
 
 #Toborzás{
-	font-size: 25px;
-	font-weight: bold;
+font-size: 25px;
+font-weight: bold;
 }
 #hírek{
-	background-color: rgba(255,255,255,0.84);
-	text-align: center;
-	position: fixed;
-	z-index: 3;
-		
+background-color: rgba(255,255,255,0.84);
+text-align: center;
+position: fixed;
+z-index: 3;
 	
-	
+
+
 }
 #main{
-	margin: 10px;
-	margin-top: 150px;
-	margin-bottom: 50px;
-	height:auto;
-	text-align: center;
-	background-color: rgba(99,7,17,0.96);
-	position: relative;
-  	top: -55px;
-	border-radius: 50px;
-	box-shadow: 0 0 5px 10px rgba(99,7,17,0.96);
-	
-	
+margin: 10px;
+margin-top: 150px;
+margin-bottom: 50px;
+height:auto;
+text-align: center;
+background-color: rgba(99,7,17,0.96);
+position: relative;
+  top: -55px;
+border-radius: 50px;
+box-shadow: 0 0 5px 10px rgba(99,7,17,0.96);
+
+
 }
 #more{
-	border: thick;
-	border-bottom-color: black;
-	background-color: gray;
+border: thick;
+border-bottom-color: black;
+background-color: gray;
 }
 #tobszov{
-	box-shadow: 0 0 25px 10px rgba(123,17,47,0.96);
+box-shadow: 0 0 25px 10px rgba(123,17,47,0.96);
 }
 #jobb{
-	margin-left: 10px;
-	background-color: white;
-	border-style: solid;
-	border-color: black;
-	border-width: 5px;
-	width: 130px;
-	height: 380px;
-	float: left;
-	border-radius: 15px;
-	padding-top: 15px;
-	font-weight: bold;
+margin-left: 10px;
+background-color: white;
+border-style: solid;
+border-color: black;
+border-width: 5px;
+width: 130px;
+height: 380px;
+float: left;
+border-radius: 15px;
+padding-top: 15px;
+font-weight: bold;
 }
 #icon{
-	border-radius: 10px;
+border-radius: 10px;
 }
 #face{
-	border-radius: 10px;
-	
+border-radius: 10px;
+
 }
 .vs{
-	position: absolute;
-	top: 50%;
-	color: rgba(200,213,28,1.00);
-	text-shadow: 1px 2px rgba(171,132,3,1.00);
-	font-size: 3.2vw;
+position: absolute;
+top: 50%;
+color: rgba(200,213,28,1.00);
+text-shadow: 1px 2px rgba(171,132,3,1.00);
+font-size: 3.2vw;
 }
 .gal-pic{
-	
-	
+
+
 }
+.gal-title{
+	background-color: rgba(99,7,17,1.0);
+text-align: center;
+box-shadow: 0 0 5px 10px rgba(99,7,17,0.96);
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+position: absolute; left: 25%;
+position: relative; top: 10px;
+color: color-mix(in srgb, white 60%, grey 40%);
+}
+
 .row-gap{
-	margin-bottom: 29px;
-	
+margin-bottom: 29px;
+
 }
 .col-gap{
-	margin-bottom: 25px;
-	margin-top: 0px;
+margin-bottom: 25px;
+margin-top: 0px;
 }
 .bg-container{
-	background-color: rgba(99,7,17,1.0);
-	
-	box-shadow: 0 0 5px 10px rgba(99,7,17,0.96);
-	border-radius: 15px; 
-	padding-top: 15px;
-	padding-bottom: 15px;
-	
-	
-  
+background-color: rgba(99,7,17,1.0);
+
+box-shadow: 0 0 5px 10px rgba(99,7,17,0.96);
+border-radius: 15px; 
+padding-top: 15px;
+padding-bottom: 15px;
+
+
+
 }
 .navbar{
-	background-color: rgba(0,0,0,0.8);
-	font-weight: bold;
+background-color: rgba(0,0,0,0.8);
+font-weight: bold;
 }
 .dropdown-menu {
-	color: white;
-	background-color: rgba(0,0,0,0.8);
-	font-weight: bold;
-	text-align: center;
-	position: relative;
-	top: 55px;
-    
-	
+color: white;
+background-color: rgba(0,0,0,0.8);
+font-weight: bold;
+text-align: center;
+position: relative;
+top: 55px;
+
+
 }
 .dropdown-item{
-	color: white;
-	font-weight: bold;
-	text-align: center;
+color: white;
+font-weight: bold;
+text-align: center;
 }
 
 
 .szoveg{
 position: relative;
-  top: -40px;
+top: -40px;
 }
 .ver-mid{
-	padding-top: 200px;
-	text-align: center
+padding-top: 200px;
+text-align: center
 }
 .tartalom{
-	text-align: justify;
-	background-color: white;
-	
-	margin-left: 160px;	
-	border-style: solid;
-	border-color: black;
-	border-radius: 15px;
-	border-bottom-left-radius: 30px;
-	border-width: 5px;
-	box-shadow: 3px 5px #52070f;
-	padding: 5px;
-	position: relative;
-	left: -150px;
-	margin-bottom: 25px;
-	
+text-align: justify;
+background-color: white;
+
+margin-left: 160px;	
+border-style: solid;
+border-color: black;
+border-radius: 15px;
+border-bottom-left-radius: 30px;
+border-width: 5px;
+box-shadow: 3px 5px #52070f;
+padding: 5px;
+position: relative;
+left: -150px;
+margin-bottom: 25px;
+
 }
 
 .kozep{
-	text-align: center;
-	
+text-align: center;
+
 }
 .f_kozep{
-	position: absolute;
-	top: 50%;
+position: absolute;
+top: 50%;
 }
 .icon{
-	width: 25px;
-	height: 25px;
+width: 25px;
+height: 25px;
 }
 .gomb{
-	color: white;	
-	height: 30px;
-	margin-bottom: 10px;
-	font-weight: bold;
-	margin-left: 7.5px;
-	margin-right: 7.5px;
-	font-size: 15px;
-	
-	
+color: white;	
+height: 30px;
+margin-bottom: 10px;
+font-weight: bold;
+margin-left: 7.5px;
+margin-right: 7.5px;
+font-size: 15px;
+
+
 }
 .icon:hover{
-	width: 30px;
-	height: 30px; 
+width: 30px;
+height: 30px; 
+}
+.van{
+	visibility: visible;
+	content-visibility: visible;
+	
+}
+.nincs{
+	visibility: hidden;
+	content-visibility: hidden;
 }
